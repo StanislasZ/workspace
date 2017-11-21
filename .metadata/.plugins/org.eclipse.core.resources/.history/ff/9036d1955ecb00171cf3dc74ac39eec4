@@ -1,0 +1,26 @@
+package demo;
+
+import domain.DoublyLinkedList;
+
+public class Demo99 {
+
+	public static void main(String[] args) {
+
+		
+		DoublyLinkedList dll=new DoublyLinkedList();
+	
+		dll.add("tuge");
+		dll.add(123);
+		
+		
+		
+		
+		
+//		for(int i=0;i<word_lower.length;i++){
+//		if(symbol[i]==0)
+//			System.out.printf("%-15s symbol=%d 出现了%d次\n",word_lower[i],symbol[i],num[i]);
+//	}
+
+	}
+
+}

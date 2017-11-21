@@ -1,0 +1,11 @@
+package day11_0801;
+
+
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

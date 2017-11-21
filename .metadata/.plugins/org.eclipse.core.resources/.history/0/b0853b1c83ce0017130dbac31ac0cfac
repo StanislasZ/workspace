@@ -1,0 +1,25 @@
+package 小功能;
+
+public class Problem1004 {
+
+	public static void main(String[] args) {
+		
+
+	}
+	public static void calculateRepeat(String[] word, int[] symbol, int[] num) {
+		//int num_repeat=0;
+		for(int i=0;i<word.length;i++){
+			if(symbol[i]==0){ 
+				num[i]++;
+				for(int j=i+1;j<word.length;j++){
+					if(word[j].equals(word[i])){
+						num[i]++;
+						symbol[j]=1;
+						//num_repeat++;   //最后word_lower的长度减去num_repeat就是去重后的字符串个数   
+					}
+				}
+			}
+		}
+		//return num_repeat;
+	}
+}

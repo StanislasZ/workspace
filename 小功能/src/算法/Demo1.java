@@ -1,0 +1,32 @@
+package 算法;
+import java.util.Arrays;
+
+import 算法.MySort;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		int[] a=new int[10000];
+		
+		for(int i=0;i<a.length;i++){
+			a[i]=(int)(Math.random()*10000);
+			
+		}
+		int[] b=Arrays.copyOf(a, a.length);
+		
+		long startTime1=System.nanoTime();//获取纳秒（当前时间）
+		MySort.insertionSort(a);
+		long endTime1=System.nanoTime();
+		System.out.printf("插入排序耗时：%.0fμs，约为%.1fms\n",(endTime1-startTime1)/1000.0,(endTime1-startTime1)/1000000.0);
+		
+		
+		long startTime2=System.nanoTime();//获取纳秒（当前时间）
+		MySort.mergeSort(a, 0, a.length-1);
+		long endTime2=System.nanoTime();
+		System.out.printf("归并排序耗时：%.0fμs，约为%.1fms",(endTime2-startTime2)/1000.0,(endTime2-startTime2)/1000000.0);		
+		
+		
+	}
+
+}

@@ -1,0 +1,55 @@
+package 小功能;
+
+import java.util.Scanner;
+
+public class Problem1004 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		
+		int n;
+		while((n=in.nextInt())!=0){
+			//int n=in.nextInt();
+			String[] word=new String[n];
+			for(int i=0;i<word.length;i++)
+				word[i]=in.next();
+			
+			int[] symbol=new int[n];
+			int[] num=new int[n];
+			
+			calculateRepeat(word, symbol, num);
+			
+			int max_index=0;
+			for(int i=1;i<n;i++){
+				if(num[i]>num[max_index])
+					max_index=i;
+				
+			}
+			
+			System.out.println(word[max_index]);
+			
+			
+		}
+		
+		
+		
+
+	}
+	public static void calculateRepeat(String[] word, int[] symbol, int[] num) {
+		//int num_repeat=0;
+		for(int i=0;i<word.length;i++){
+			if(symbol[i]==0){ 
+				num[i]++;
+				for(int j=i+1;j<word.length;j++){
+					if(word[j].equals(word[i])){
+						num[i]++;
+						symbol[j]=1;
+						//num_repeat++;   //最后word_lower的长度减去num_repeat就是去重后的字符串个数   
+					}
+				}
+			}
+		}
+		//return num_repeat;
+	}
+}

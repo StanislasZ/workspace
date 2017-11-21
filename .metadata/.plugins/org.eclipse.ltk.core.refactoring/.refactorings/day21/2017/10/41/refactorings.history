@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将方法“private static void methodDemo1(File file)”从“file.demo.FileMethodTest.main()”抽取到“file.demo.FileMethodTest”&#x0D;&#x0A;－ 原始项目：“day21”&#x0D;&#x0A;－ 方法名称：“methodDemo1”&#x0D;&#x0A;－ 目标类型：“file.demo.FileMethodTest”&#x0D;&#x0A;－ 已声明可视性：“private”" comments="false" description="抽取方法“methodDemo1”" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;file.demo{FileMethodTest.java" name="methodDemo1" replace="false" selection="365 445" stamp="1507970973943" version="1.0" visibility="2"/>
+</session>

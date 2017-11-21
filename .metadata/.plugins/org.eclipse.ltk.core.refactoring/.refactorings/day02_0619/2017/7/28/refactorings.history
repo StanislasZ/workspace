@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;JavaFor30Days/src/day02_0618&apos;&#x0D;&#x0A;－ 原始项目：“day02_0619”&#x0D;&#x0A;－ 目标元素：“JavaFor30Days/src/day02_0618”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本OperateDemo2.java&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本OperateDemo.java&#x0D;&#x0A;－ 更新对已重构元素的引用" description="移动编译单元" destination="=JavaFor30Days/src&lt;day02_0618" element1="/src&lt;{OperateDemo2.java" element2="/src&lt;{OperateDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1499738267261" units="2" version="1.0"/>
+</session>

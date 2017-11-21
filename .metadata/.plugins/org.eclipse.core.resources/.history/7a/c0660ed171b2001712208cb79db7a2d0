@@ -1,0 +1,44 @@
+package file.test;
+
+import java.io.File;
+import java.nio.file.Files;
+
+public class GetAllFilesTest {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 遍历指定目录下的内容（包含子目录中的内容）
+		 */
+		
+		File dir=new File("D:\\eclipse\\workspace");
+		
+		getAllFiles(dir);
+		
+		
+		
+
+	}
+	public static void getAllFiles(File dir){
+		System.out.println("dir:"+dir);
+		//1.获取该目录的文件对象数组
+		File[] files=dir.listFiles();
+		
+		//2.对数组进行遍历
+		for(File file:files){
+			
+			if(file.isDirectory()){
+				getAllFiles(file);  //递归
+			}else{
+				System.out.println("file"+file);
+			}
+			
+			
+			
+			
+		}
+		
+		
+	}
+
+}

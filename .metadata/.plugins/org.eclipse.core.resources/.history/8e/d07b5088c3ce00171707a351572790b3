@@ -1,0 +1,120 @@
+package 小功能;   //1002
+
+import java.util.Scanner;
+
+
+public class BigNumberAddDemo {
+	public static void main(String[] args){
+		
+		Scanner in0 =new Scanner(System.in);
+		Scanner in1 =new Scanner(System.in);
+		//Scanner in2 =new Scanner(System.in);
+		
+		//Scanner[] in={in1,in2};
+			
+		int T;
+		T=in0.nextInt();
+		//int case_number=in.nextInt();
+		//System.out.print("请输入任意字符:");
+		
+		String[] str_start=new String[T];
+		String[][] addnum=new String[T][2];
+		String[] result=new String[T];
+		
+		int flag=0;
+		while(flag<T){
+			str_start[flag]=in1.nextLine();
+			result[flag]=bigNumAdd(str_start[flag],flag,addnum);
+			
+			System.out.println(String.format("Case %d:",flag+1));
+			System.out.println(String.format("%s + %s = %s", addnum[flag][0],addnum[flag][1],result[flag]));
+			
+			if(flag<T-1)
+				System.out.print(String.format("\n"));
+			flag++;
+		}
+
+		
+		
+		
+//		String[] str_start=new String[T];
+//		str_start[0]=in[0].nextLine();
+//		str_start[1]=in[1].nextLine();
+//	
+//		String[][] addnum=new String[T][2];
+//		
+//		String[] result=new String[T];
+//		result[0]=bigNumAdd(str_start[0],0,addnum);
+//		result[1]=bigNumAdd(str_start[1],1,addnum);
+//		
+//		for(int i=0;i<T;i++){
+//			//System.out.println("Case "+(i+1)+":");
+//			System.out.println(String.format("Case %d:",i+1));
+//			
+//			//System.out.println(addnum[i][0]+" "+"+"+" "+addnum[i][1]+" "+"="+" "+result[i]+"\n");
+//			System.out.println(String.format("%s + %s = %s", addnum[i][0],addnum[i][1],result[i]));
+//			if(i==0)
+//				System.out.println();
+//		}
+		
+		
+		
+	}
+
+	private static String bigNumAdd(String str_start,int num,String[][] addnum) {
+		int blankindex=str_start.indexOf(" ");
+		//System.out.println("空格角标为："+blankindex);
+		StringBuilder str_1=new StringBuilder(str_start.substring(0, blankindex));
+		StringBuilder str_2=new StringBuilder(str_start.substring(blankindex+1, str_start.length()));
+		
+		addnum[num][0]=str_1.toString();
+		addnum[num][1]=str_2.toString();
+		
+		//System.out.println(str_1.length()+" "+str_2.length());
+		
+		//短的补0
+		int cha=str_1.length()-str_2.length();
+		if(cha>0){
+			str_2.reverse();
+			for(int i=1;i<=cha;i++){
+				str_2.append('0');
+			}
+			str_2.reverse();
+		}
+		else if(cha<0){
+			str_1.reverse();
+			for(int i=1;i<=-cha;i++){
+				str_1.append('0');
+				//System.out.println("加0后str1长度为"+str_1.length());
+			}
+			str_1.reverse();
+		}
+		
+		//System.out.println(str_1+"    "+str_2);
+		//System.out.println(str_1.length()+" "+str_2.length());
+		
+		StringBuilder newsb=new StringBuilder();
+		
+		int symbol=0;
+		for(int i=str_1.length()-1;i>=0;i--){
+			Character ch1=str_1.charAt(i);
+			Character ch2=str_2.charAt(i);
+			
+			int temp=Integer.parseInt(ch1.toString())+Integer.parseInt(ch2.toString())+symbol;
+			if (temp<=9){
+				symbol=0;
+				newsb.append(temp);
+			}else if(temp>=10){
+				symbol=1;
+				newsb.append(temp-10);
+			}
+			
+		}
+		if(symbol==1){
+			newsb.append(1);
+		}
+		newsb.reverse();
+		//System.out.println(newsb);
+		return newsb.toString();
+	}
+}

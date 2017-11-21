@@ -1,0 +1,39 @@
+package Ð¡¹¦ÄÜ;
+
+import java.util.Scanner;
+
+public class Problem1041 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		
+		while(in.hasNextInt()){
+			int n=in.nextInt();
+			
+			int[] dp00=new int[n];
+			int[] dp01=new int[n];
+			
+			dp00[0]=0;
+			dp01[0]=1;
+			
+			for(int i=1;i<n;i++){
+				dp00[i]=dp01[i-1];
+				dp01[i]=(int)(Math.pow(2.0, (double)(i-1)));
+				
+				
+			}
+			
+			System.out.println(dp00[n-1]);
+			
+			
+			
+			
+			
+			
+			
+		}
+
+	}
+
+}

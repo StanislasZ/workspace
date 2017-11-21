@@ -1,0 +1,15 @@
+package demo;
+
+import domain.DoublyLinkedList;
+
+public class Demo99 {
+
+	public static void main(String[] args) {
+
+		
+		double a=3.0;
+		System.out.println(Math.ceil(a));
+
+	}
+
+}

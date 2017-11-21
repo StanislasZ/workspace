@@ -1,0 +1,19 @@
+package file.test;
+
+public class GetAllFilesTest {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 遍历指定目录下的
+		 */
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

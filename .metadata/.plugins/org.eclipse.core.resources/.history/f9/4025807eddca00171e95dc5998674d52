@@ -1,0 +1,55 @@
+package domain;
+
+public class MyLinkedList {
+	
+	public  Node  head; //头节点  
+    public  int  count;     //记录节点的长度  
+    public  MyLinkedList(){ //构造函数用来初始化  
+        head = null;  
+        count = 0;  
+    }  
+	
+    //节点的添加  
+    public void addNode(Node data){  
+        Node node = new Node(data,null);  //创建时，next未知 ，设为null
+        Node temp = null;  
+        if(head!= null){  
+            temp = head;  
+            while(temp.getNext()!=null){  
+                temp = temp.getNext();  
+            }  
+        temp.setNext(node);  
+        }else{   //头结点是null就把这个作为头结点
+            head = node;  
+            temp = node;  
+        }  
+    count++;  
+    }  
+	
+}
+class Node{
+	
+	public Node data;   //数据区  
+    public Node next;   //指针区  
+    
+    public Node (Node data,Node next){  
+	    this.data = data ;  
+	    this.next = next;  
+    }  
+    public Node(){  
+    }  
+    
+    public void setData(Node data){  
+    	this.data = data;  
+    }  
+    public Node getData(){  
+    	return data;  
+    }
+    
+    public void setNext(Node next){  
+        this.next=next;  
+    }  
+    public Node getNext(){  
+        return next;  
+    }  
+}

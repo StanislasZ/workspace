@@ -1,0 +1,33 @@
+package day14_0810;
+
+//描述资源
+class Resource2{
+	private String name;
+	private int count=1;
+	//提供了给商品赋值的方法，让生产者调用
+	public synchronized void set(String name){
+		this.name=name+"--"+count;
+		count++;
+		System.out.println(Thread.currentThread().getName()+"...生产者..."+this.name);
+	}
+	//同步方法结束后，锁释放。但可能生产者又抢到锁了，又进来，又生产 
+	
+	
+	//提供一个获取商品的方法，让消费者调用
+	public synchronized void get(){
+		System.out.println(Thread.currentThread().getName()+".....消费者..."+this.name);
+	}
+}
+
+
+
+
+
+public class ProducerConsumerDemo2_wait_notify {
+
+	public static void main(String[] args) {
+	
+
+	}
+
+}

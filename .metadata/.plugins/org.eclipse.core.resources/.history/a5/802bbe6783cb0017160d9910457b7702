@@ -1,0 +1,12 @@
+package Ëã·¨;
+import Ëã·¨.MySort;
+
+public class Demo1 {
+
+	public static void main(String[] args) {
+		
+		int[] a={5,6,2,10,1};
+		MySort.insertionSort(a);
+	}
+
+}

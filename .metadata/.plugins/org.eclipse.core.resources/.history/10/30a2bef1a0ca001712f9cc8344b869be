@@ -1,0 +1,115 @@
+package 小功能;
+
+import java.util.Scanner;
+
+public class Problem1003 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		
+		int T=in.nextInt();
+		
+		int flag=0;
+		while(flag<T){
+			
+			
+			int num=in.nextInt();
+			int[] arr=new int[num];
+			//把输入的数字装入数组
+			for(int i=0;i<arr.length;i++)
+				arr[i]=in.nextInt();
+				
+			int sum=0;
+			int[] dp=new int[num];
+			int[] symbol=new int[num];   //比如 角标0-3的序列最大是0-2， 存储的就是角标为3的值
+			dp[0]=arr[0];
+			symbol[0]=arr[0];
+			
+			
+			//找到第一个大于等于0的角标
+			int index_left=findFirstPositive(arr);
+		
+						
+			int index_right=0;
+			
+			if(index_left!=-1){   //至少有个大于等于0的数
+				symbol[index_left]=0;
+				for(int i=index_left+1;i<dp.length;i++){
+					
+					if(symbol[i-1]>=0){    //上个状态的标志为0，代表没有漏数
+						if(arr[i]>=0){   //应为==0，大于号只是为了i=0的情况
+							dp[i]=dp[i-1]+arr[i];
+							symbol[i]=0;
+							index_right=i;
+							//System.out.println("i="+i+"时，dp["+i+"]="+dp[i]+",symbol["+i+"]="+symbol[i]+",index_right="+index_right);
+						}else{
+							dp[i]=dp[i-1];
+							symbol[i]=arr[i];
+							//System.out.println("i="+i+"时，dp["+i+"]="+dp[i]+",symbol["+i+"]="+symbol[i]+",index_right="+index_right);
+						}
+						
+					}else {         //上个状态的标志不为0(肯定是小于0），代表有漏数
+						int temp=symbol[i-1]+arr[i];
+						if(temp>=0){
+							dp[i]=dp[i-1]+temp;
+							symbol[i]=0;
+							index_right=i;
+							//System.out.println("i="+i+"时，dp["+i+"]="+dp[i]+",symbol["+i+"]="+symbol[i]+",index_right="+index_right);
+						}else{
+							dp[i]=dp[i-1];
+							symbol[i]=temp;
+							//System.out.println("i="+i+"时，dp["+i+"]="+dp[i]+",symbol["+i+"]="+symbol[i]+",index_right="+index_right);
+						}
+					}
+					
+					
+					
+				}
+				
+
+				//求和
+				for(int i=index_left;i<=index_right;i++){
+					sum+=arr[i];
+				}
+				
+			}else if(index_left==-1){ //全是负数
+				int max=arr[0];
+				for(int i=1;i<arr.length;i++){
+					if(arr[i]>max){
+						max=arr[i];
+						index_left=i;
+						index_right=i;
+						sum=arr[i];
+					}
+				}
+			}
+			
+			System.out.println("sum="+sum);
+			System.out.println("index_left="+(index_left+1)+" ,index_right="+(index_right+1));
+				
+			
+			
+			flag++;
+		}
+		
+		
+		
+
+	}
+
+	/**
+	 * 返回数组中第一个大于等于0的元素的角标
+	 * @param arr
+	 * @return
+	 */
+	public static int findFirstPositive(int[] arr) {
+		for(int i=0;i<arr.length;i++){
+			if(arr[i]>=0){
+				return i;
+			}
+		}
+		return -1;
+	}
+
+}

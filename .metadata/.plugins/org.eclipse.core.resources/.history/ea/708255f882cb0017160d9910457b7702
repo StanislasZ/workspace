@@ -1,0 +1,17 @@
+package À„∑®;
+
+public class MySort {
+	//≤Â»Î≈≈–Ú
+	public static void insertionSort(int[] a){
+		for(int i=1;i<a.length;i++){
+			
+			
+			
+		}
+		
+	}
+	
+	
+	
+	
+}

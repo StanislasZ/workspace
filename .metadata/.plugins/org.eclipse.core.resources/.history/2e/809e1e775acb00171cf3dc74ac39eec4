@@ -1,0 +1,19 @@
+package demo;
+
+import java.util.LinkedList;
+
+public class Demo99 {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+//		for(int i=0;i<word_lower.length;i++){
+//		if(symbol[i]==0)
+//			System.out.printf("%-15s symbol=%d 出现了%d次\n",word_lower[i],symbol[i],num[i]);
+//	}
+
+	}
+
+}

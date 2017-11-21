@@ -1,0 +1,411 @@
+2017-06-16 09:59:12,127 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2017-06-16 15:25:58,187 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-18 09:08:14,071 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-19 08:40:19,325 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-19 09:24:30,793 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-19 10:20:52,883 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-19 14:03:48,526 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-20 08:57:18,000 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-20 14:06:58,148 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-20 14:06:59,609 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-06-21 08:33:25,647 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-21 09:38:39,582 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-21 13:54:32,240 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-22 08:36:34,730 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-23 13:20:00,451 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-24 09:24:15,539 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-25 10:59:26,108 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-26 08:28:26,941 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-26 13:55:23,517 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @19630856ms
+2017-06-26 13:55:23,832 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.3.9.v20160517
+2017-06-26 13:55:23,919 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@170b26a3{/help,null,AVAILABLE}
+2017-06-26 13:55:23,982 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@296af31d{HTTP/1.1,[http/1.1]}{127.0.0.1:60130}
+2017-06-26 13:55:23,983 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @19631322ms
+2017-06-26 13:56:22,337 [qtp648175919-2998] WARN  o.e.jetty.servlet.ServletHandler - 
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432) ~[na:na]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492) ~[na:na]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310) ~[org.eclipse.equinox.http.jetty_3.3.0.v20160324-1850.jar:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845) ~[org.eclipse.jetty.servlet_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583) [org.eclipse.jetty.servlet_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) [org.eclipse.jetty.servlet_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.Server.handle(Server.java:524) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.PrintWriter.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471) ~[na:na]
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:459) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403) ~[na:na]
+	... 34 common frames omitted
+Caused by: org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.ByteArrayOutputStream.writeTo(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.PrintWriter.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471) ~[na:na]
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:460) ~[na:na]
+	... 37 common frames omitted
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.SocketDispatcher.writev(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.IOUtil.write(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	... 58 common frames omitted
+2017-06-26 13:56:22,347 [qtp648175919-2998] WARN  o.eclipse.jetty.server.HttpChannel - //127.0.0.1:60130/help/advanced/searchView.jsp?searchWord=class&maxHits=500
+org.apache.jasper.JasperException: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:432) ~[na:na]
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:492) ~[na:na]
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:378) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.jsp.jasper.JspServlet.service(JspServlet.java:155) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.HttpServiceRuntimeImpl$LegacyServlet.service(HttpServiceRuntimeImpl.java:1221) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.registration.EndpointRegistration.service(EndpointRegistration.java:153) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ResponseStateHandler.processRequest(ResponseStateHandler.java:62) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.context.DispatchTargets.doDispatch(DispatchTargets.java:132) ~[na:na]
+	at org.eclipse.equinox.http.servlet.internal.servlet.ProxyServlet.service(ProxyServlet.java:100) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:310) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:845) ~[na:na]
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:583) ~[na:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:224) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1174) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:511) ~[na:na]
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1106) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:134) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.Server.handle(Server.java:524) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:319) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:253) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:273) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:95) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.SelectChannelEndPoint$2.run(SelectChannelEndPoint.java:93) [org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.executeProduceConsume(ExecuteProduceConsume.java:303) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.produceConsume(ExecuteProduceConsume.java:148) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.strategy.ExecuteProduceConsume.run(ExecuteProduceConsume.java:136) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:671) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:589) [org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.lang.Thread.run(Unknown Source) [na:1.8.0_131]
+Caused by: org.eclipse.jetty.io.RuntimeIOException: org.eclipse.jetty.io.EofException
+	at org.eclipse.jetty.server.ResponseWriter.isOpen(ResponseWriter.java:133) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:202) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.PrintWriter.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471) ~[na:na]
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:459) ~[na:na]
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:111) ~[na:na]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790) ~[javax.servlet_3.1.0.v201410161800.jar:3.1.0]
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:403) ~[na:na]
+	... 34 common frames omitted
+Caused by: org.eclipse.jetty.io.EofException: null
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:197) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.WriteFlusher.flush(WriteFlusher.java:419) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.WriteFlusher.write(WriteFlusher.java:313) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.io.AbstractEndPoint.write(AbstractEndPoint.java:141) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection$SendCallback.process(HttpConnection.java:733) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.IteratingCallback.processing(IteratingCallback.java:241) ~[org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.util.IteratingCallback.iterate(IteratingCallback.java:224) ~[org.eclipse.jetty.util_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpConnection.send(HttpConnection.java:521) [org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.sendResponse(HttpChannel.java:692) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpChannel.write(HttpChannel.java:746) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:179) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:163) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.HttpOutput.write(HttpOutput.java:415) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.ByteArrayOutputStream.writeTo(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.jetty.server.Utf8HttpWriter.write(Utf8HttpWriter.java:183) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at org.eclipse.jetty.server.ResponseWriter.write(ResponseWriter.java:203) ~[org.eclipse.jetty.server_9.3.9.v20160517.jar:9.3.9.v20160517]
+	at java.io.PrintWriter.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.equinox.http.servlet.internal.servlet.HttpServletResponseWrapperImpl$InternalWriter.write(HttpServletResponseWrapperImpl.java:176) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.flushBuffer(JspWriterImpl.java:185) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:458) ~[na:na]
+	at org.apache.jasper.runtime.JspWriterImpl.write(JspWriterImpl.java:471) ~[na:na]
+	at org.apache.jsp.advanced.searchView_jsp._jspService(org.apache.jsp.advanced.searchView_jsp:460) ~[na:na]
+	... 37 common frames omitted
+Caused by: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.writev0(Native Method) ~[na:1.8.0_131]
+	at sun.nio.ch.SocketDispatcher.writev(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.IOUtil.write(Unknown Source) ~[na:1.8.0_131]
+	at sun.nio.ch.SocketChannelImpl.write(Unknown Source) ~[na:1.8.0_131]
+	at org.eclipse.jetty.io.ChannelEndPoint.flush(ChannelEndPoint.java:177) ~[org.eclipse.jetty.io_9.3.9.v20160517.jar:9.3.9.v20160517]
+	... 58 common frames omitted
+2017-06-26 15:38:53,973 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@296af31d{HTTP/1.1,[http/1.1]}{127.0.0.1:0}
+2017-06-26 15:38:54,171 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@170b26a3{/help,null,UNAVAILABLE}
+2017-06-26 15:41:30,726 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-27 08:17:01,982 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-27 13:32:52,336 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-28 08:45:02,761 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-29 10:17:43,237 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-29 10:21:45,856 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-30 08:59:07,169 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-06-30 14:07:55,309 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-06-30 14:07:55,594 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-01 14:36:26,024 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-03 08:44:58,773 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-03 08:45:00,241 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-03 14:36:40,081 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-03 14:36:40,382 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-04 08:43:15,971 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-04 14:32:50,577 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-05 08:43:12,220 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-05 14:31:25,855 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-05 14:31:44,887 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-05 20:26:52,908 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-06 09:01:20,294 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 10:20:17,350 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 10:37:59,812 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 14:37:18,799 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-06 20:44:53,705 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-06 20:44:54,421 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-07 09:13:16,670 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-08 09:54:57,475 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-09 09:14:35,526 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-10 08:27:45,053 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-11 06:56:22,054 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-11 09:39:34,756 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-11 14:37:39,614 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-11 18:03:50,249 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-11 18:08:29,424 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-12 08:55:05,118 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-12 10:28:05,557 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-12 14:33:37,868 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-13 14:35:30,206 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-13 14:35:31,828 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-13 21:06:04,642 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-13 21:06:05,017 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-14 09:44:26,556 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-15 08:24:35,836 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-16 08:46:06,478 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-16 20:09:21,588 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-17 09:15:58,060 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-17 14:38:03,419 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-17 20:26:01,015 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-18 08:56:00,919 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-18 14:42:49,971 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-18 14:42:51,405 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-19 09:31:55,197 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-20 09:42:21,947 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-20 14:37:20,565 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-20 20:18:39,143 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-21 08:55:18,384 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-07-21 10:54:52,426 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-24 14:47:33,978 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-24 14:47:34,283 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-07-25 08:39:52,886 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-26 10:25:58,435 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-27 20:31:38,264 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-07-31 13:57:12,818 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-01 10:39:16,632 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-02 09:43:38,639 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-02 09:43:43,027 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-08-03 10:27:32,261 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-07 13:29:26,605 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-08 09:08:03,086 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-09 11:30:55,609 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-11 10:42:19,565 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-12 10:18:08,325 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-13 08:55:09,573 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-15 12:52:05,374 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-16 09:40:23,466 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-17 09:57:51,915 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-18 09:42:02,210 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-20 20:15:40,386 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-21 09:41:26,125 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-28 10:15:23,652 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-28 16:39:04,743 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-29 13:15:00,091 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-08-30 10:12:14,570 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-31 10:37:49,129 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-11 18:37:14,188 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-11 18:37:15,775 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-09-12 11:36:24,220 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-13 11:24:21,337 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-14 11:43:23,585 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-15 09:59:09,394 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-16 14:34:22,513 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-17 14:43:35,980 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-19 10:03:25,321 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-20 21:20:13,386 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-20 21:20:14,213 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-09-22 10:37:31,693 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-22 20:30:07,266 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-23 14:05:35,621 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-23 15:26:21,446 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-23 21:14:52,460 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-24 10:32:48,993 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-25 18:58:17,802 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-25 18:58:18,615 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2017-09-25 19:07:38,103 [Worker-9] WARN  o.e.r.models.ModelRepository - Failed to download jre:jre:ctor:zip:1.0.0
+org.eclipse.aether.resolution.ArtifactResolutionException: Could not transfer artifact jre:jre:zip:ctor:1.0.0-20160630.072510-1 from/to models (http://download.eclipse.org/recommenders/models/neon/): download.eclipse.org
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:444) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:246) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifact(DefaultArtifactResolver.java:223) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveArtifact(DefaultRepositorySystem.java:294) ~[na:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolveInternal(ModelRepository.java:193) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.models.ModelRepository.resolve(ModelRepository.java:172) [org.eclipse.recommenders.models_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.EclipseModelRepository.resolve(EclipseModelRepository.java:169) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.recommenders.internal.models.rcp.DownloadModelArchiveJob.run(DownloadModelArchiveJob.java:76) [org.eclipse.recommenders.models.rcp_2.4.6.v20170307-1041.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.8.0.v20160509-0411.jar:na]
+Caused by: org.eclipse.aether.transfer.ArtifactTransferException: Could not transfer artifact jre:jre:zip:ctor:1.0.0-20160630.072510-1 from/to models (http://download.eclipse.org/recommenders/models/neon/): download.eclipse.org
+	at org.eclipse.aether.connector.basic.ArtifactTransportListener.transferFailed(ArtifactTransportListener.java:43) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:355) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.util.concurrency.RunnableErrorForwarder$1.run(RunnableErrorForwarder.java:67) ~[na:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$DirectExecutor.execute(BasicRepositoryConnector.java:581) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector.get(BasicRepositoryConnector.java:249) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:520) ~[na:na]
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:421) ~[na:na]
+	... 8 common frames omitted
+Caused by: java.net.UnknownHostException: download.eclipse.org
+	at java.net.InetAddress.getAllByName0(Unknown Source) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[na:1.8.0_131]
+	at java.net.InetAddress.getAllByName(Unknown Source) ~[na:1.8.0_131]
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:44) ~[na:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:259) ~[na:na]
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:159) ~[na:na]
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:304) ~[na:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:611) ~[na:na]
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:446) ~[na:na]
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:863) ~[na:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72) ~[na:na]
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57) ~[na:na]
+	at org.apache.http.impl.client.DecompressingHttpClient.execute(DecompressingHttpClient.java:158) ~[na:na]
+	at org.eclipse.aether.transport.http.HttpTransporter.execute(HttpTransporter.java:287) ~[org.eclipse.aether.transport.http_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.transport.http.HttpTransporter.implGet(HttpTransporter.java:243) ~[org.eclipse.aether.transport.http_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.spi.connector.transport.AbstractTransporter.get(AbstractTransporter.java:59) ~[org.eclipse.aether.spi_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$GetTaskRunner.runTask(BasicRepositoryConnector.java:447) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	at org.eclipse.aether.connector.basic.BasicRepositoryConnector$TaskRunner.run(BasicRepositoryConnector.java:350) ~[org.eclipse.aether.connector.basic_1.0.1.v20141111.jar:na]
+	... 13 common frames omitted
+2017-09-26 10:34:17,747 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-26 20:24:18,981 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-27 09:02:04,949 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-27 11:36:31,331 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-09-27 21:48:47,945 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-09-30 16:58:55,930 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-01 14:02:04,798 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-05 17:21:58,865 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-07 20:48:08,101 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-08 11:56:38,843 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-08 20:13:54,157 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-09 10:03:11,976 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-09 18:08:42,081 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-10 10:28:38,523 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-10 21:44:04,285 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-11 13:10:21,928 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-11 21:26:29,410 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-12 14:10:12,112 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-12 14:44:33,983 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-12 20:49:06,571 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-14 14:19:24,676 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-14 21:37:51,643 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-15 10:11:15,130 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-15 21:45:39,552 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-16 10:25:26,705 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-16 19:00:56,615 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-17 10:18:56,468 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-19 14:34:42,664 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-20 14:07:53,961 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-20 22:16:51,094 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-21 22:19:28,856 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-22 09:36:22,468 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-23 10:01:57,313 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-23 18:30:28,740 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-10-25 16:36:45,141 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-10-29 21:48:57,374 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-01 11:59:59,684 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-02 08:23:46,505 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-02 13:50:06,037 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-05 09:16:54,362 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-06 10:22:50,825 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-06 18:51:37,358 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-07 10:07:10,330 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-07 13:22:23,895 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-08 11:32:48,667 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-09 13:48:43,048 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-09 17:32:05,320 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-10 08:45:43,729 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-10 14:46:28,898 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-10 18:23:10,747 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-11 13:26:39,914 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-11 20:07:32,407 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-12 12:18:15,271 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-12 17:46:29,891 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-12 18:17:07,337 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-12 20:16:23,025 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-12 22:03:35,796 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-13 09:24:49,331 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-13 17:55:35,958 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-14 16:26:43,600 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-14 18:58:27,608 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-16 13:57:29,800 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-16 19:58:01,659 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-17 09:47:34,820 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-17 13:37:29,109 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-17 13:42:04,292 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-17 15:40:15,166 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-17 18:20:18,192 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-17 22:01:22,431 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-18 13:02:55,360 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-18 14:18:14,653 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-19 10:07:21,949 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-19 12:15:12,693 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-19 19:32:17,526 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-20 16:28:43,574 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-20 17:46:47,832 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-20 18:56:17,391 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-21 10:34:22,117 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-11-21 18:24:36,091 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2017-11-21 21:53:20,877 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

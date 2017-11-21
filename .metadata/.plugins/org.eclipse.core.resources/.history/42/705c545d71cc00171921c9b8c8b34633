@@ -1,0 +1,37 @@
+package 小功能;
+
+import java.util.Scanner;
+
+public class Problem1030 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		int M=in.nextInt();
+		int N=in.nextInt();
+		
+		//1.把M,N转化为第几排的第几个
+		DeltaWave d1=new DeltaWave(M);
+		DeltaWave d2=new DeltaWave(N);
+		
+		System.out.println(d1.hangshu+","+d1.sequence);
+		
+		
+		
+
+	}
+
+}
+class DeltaWave{
+	int hangshu;
+	int sequence;
+	public DeltaWave(int num) {
+		double temp=Math.sqrt((double)num);
+		hangshu=(int)Math.ceil(temp);
+		sequence=num-(hangshu-1)*(hangshu-1);
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,46 @@
+package Ð¡¹¦ÄÜ;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class Problem1023 {
+
+	public static void main(String[] args) {
+		
+		Scanner in=new Scanner(System.in);
+		
+		int N;
+		while(in.hasNext()){
+			N=in.nextInt();
+			
+			BigInteger[] bi=new BigInteger[N];
+			bi[0]=new BigInteger("1");
+			
+			System.out.println(bi[0]);
+			for(int i=2;i<=N;i++){
+				
+				
+				
+			}
+			
+			
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+	
+	
+}

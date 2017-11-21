@@ -1,0 +1,25 @@
+
+
+集合框架的工具类
+Collections：定义的都是操作Collection的静态方法
+	1.对list排序
+		sort(list);
+		
+	2.逆序
+	reverseOrder
+	
+	3.max min
+	
+	4.二分查找
+	
+	5.将非同步集合转成同步集合
+	
+	
+Arrays:用来操作数组的工具类，方法都是静态的
+
+	public static <T> void swap(T[] arr,int x,int y){
+		T temp=arr[x];
+		arr[x]=arr[y];
+		
+	
+	}

@@ -1,0 +1,37 @@
+package Ð¡¹¦ÄÜ;
+
+import java.util.Scanner;
+
+public class Problem1000 {
+
+	public static void main(String[] args) {
+	
+		Scanner in=new Scanner(System.in);
+		
+				
+		while(in.hasNextInt()){
+			String s1=in.next();
+			String s2=in.next();
+			int A=Integer.parseInt(s1);
+			int B=Integer.parseInt(s2);
+			int result=A+B;
+			
+			System.out.println(String.format("%d",result));
+		}
+		
+		
+		
+		
+		
+//		String s1=in.next();
+//		String s2=in.next();
+//		
+//		int A=Integer.parseInt(s1);
+//		int B=Integer.parseInt(s2);
+//
+//		int result=A+B;
+//		
+//		System.out.println(String.format("%d",result));
+	}
+
+}

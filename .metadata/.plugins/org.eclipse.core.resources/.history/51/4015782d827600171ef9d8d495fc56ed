@@ -1,0 +1,36 @@
+package day11_0801;   //03-异常处理方式
+
+/*
+ 异常的处理。
+ 	两种：
+ 		1.遇到问题不进行具体的处理，而是继续抛给调用者。
+  
+  
+ */
+
+class Demo{
+	/*
+	 在编写功能时，编写者知道该功能有可能发生问题。而这个问题很容易来自于调用者传递的参数。
+	 而导致功能无法运行。这时发生的问题就应该让调用者知道，并最好让调用者有预先的处理方式。
+	 所以在定义功能时，需要在功能上对有可能发生的问题进行声明！！
+	 */
+	int div(int a,int b) throws Exception{ 
+		if(b==0){
+			//throw new ArithmeticException("除数不能为0");
+		}
+		return a/b;
+	}
+}
+
+
+
+public class ExceptionDemo2 {
+
+	public static void main(String[] args) throws Exception{
+		Demo d=new Demo();
+		int num=d.div(4, 0);    //java.lang.ArithmeticException: / by zero
+		System.out.println("num="+num);
+		System.out.println("over");
+	}
+
+}

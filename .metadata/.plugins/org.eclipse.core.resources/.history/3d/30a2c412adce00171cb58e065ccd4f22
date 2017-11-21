@@ -1,0 +1,77 @@
+package 小功能;
+
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Scanner;
+import java.util.TreeSet;
+
+public class Problem1031 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 思路：从左往右输入数据到集合，用treeset 用自己定义的比较器
+		 */
+
+		Scanner in=new Scanner(System.in);
+		
+		int M,N,K;
+		
+		while(in.hasNextInt()){
+			M=in.nextInt();N=in.nextInt();K=in.nextInt();
+			int[] sum=new int[N];
+			for(int i=0;i<M;i++){
+				for(int j=0;j<N;j++){
+					int temp=in.nextInt();
+					sum[j]=sum[j]+temp;
+				}
+			}
+			
+			TreeSet<Satisfication> ts=new TreeSet<>(new Comparator<Satisfication>(){
+
+				@Override
+				public int compare(Satisfication o1, Satisfication o2) {
+					
+					if(o1.value==o2.value)
+						return 0;
+					else if(o1.value>o2.value)
+						return 1;
+					else
+						return -1;
+					
+							
+				}
+				
+			});
+			
+			for(int i=1;i<=N;i++){
+				ts.add(new Satisfication(i-1, sum[i-1]));
+			}
+			
+			for (Iterator<Satisfication> it = ts.iterator(); it.hasNext();) {
+				Satisfication s =it.next();
+				System.out.println(s.index+1);
+			}
+			
+			
+			
+			
+		}
+		
+		
+	}
+
+}
+
+class Satisfication{
+	int index;
+	int value;
+	public Satisfication(int index, int value) {
+		super();
+		this.index = index;
+		this.value = value;
+	}
+	
+	
+}
+

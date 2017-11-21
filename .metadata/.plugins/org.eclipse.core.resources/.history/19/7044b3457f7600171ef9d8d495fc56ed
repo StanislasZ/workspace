@@ -1,0 +1,19 @@
+package day11_0801;
+
+/*
+ 异常：Java程序在 运行 时期发生的不正常情况（问题）。
+ 
+ 	java就按照面向对象的思想对不正常情况进行描述和对象的封装。
+ */
+
+
+public class ExceptionDemo {
+
+	public static void main(String[] args) {
+		//int[] arr=new int[1];
+		int[] arr=new int[1024*1024*100];  //OutOfMemoryError
+		System.out.println(arr[1]);  //编译能通过，运行通不过ArrayIndexOutOfBoundsException:1
+
+	}
+
+}

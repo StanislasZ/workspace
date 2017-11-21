@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="将方法“private static void printCollection(List&lt;String&gt; list)”从“generic.demo.GenericDemo7.main()”抽取到“generic.demo.GenericDemo7”&#x0D;&#x0A;－ 原始项目：“day19”&#x0D;&#x0A;－ 方法名称：“printCollection”&#x0D;&#x0A;－ 目标类型：“generic.demo.GenericDemo7”&#x0D;&#x0A;－ 已声明可视性：“private”" comments="false" description="抽取方法“printCollection”" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;generic.demo{GenericDemo7.java" name="printCollection" replace="false" selection="303 122" stamp="1506231162274" version="1.0" visibility="2"/>
+</session>

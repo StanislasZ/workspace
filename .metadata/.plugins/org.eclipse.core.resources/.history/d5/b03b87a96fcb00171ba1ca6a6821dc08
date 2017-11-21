@@ -1,0 +1,48 @@
+package demo;
+
+import domain.DoublyLinkedList;
+
+public class Demo99 {
+
+	public static void main(String[] args) {
+
+		
+		DoublyLinkedList dll=new DoublyLinkedList();
+	
+		dll.add(1);
+		dll.add(2);
+		dll.add(3);
+		
+		dll.add(1, 100);
+		dll.add(1, 200);
+		
+		dll.add(4,500);
+		
+		for(int i=0;i<dll.getSize();i++){
+			System.out.println(dll.getValue(i));
+		}
+		
+//		LinkedList list=new LinkedList();
+//		list.add(2);
+//		list.add(3);
+//		list.add(4);
+//		
+//		list.remove(1);
+//		
+//		System.out.println(list);
+		
+	
+		
+		
+		
+		
+		
+		
+//		for(int i=0;i<word_lower.length;i++){
+//		if(symbol[i]==0)
+//			System.out.printf("%-15s symbol=%d 出现了%d次\n",word_lower[i],symbol[i],num[i]);
+//	}
+
+	}
+
+}

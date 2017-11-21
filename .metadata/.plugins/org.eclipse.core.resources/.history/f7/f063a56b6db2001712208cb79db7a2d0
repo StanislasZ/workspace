@@ -1,0 +1,24 @@
+package file.test;
+
+import java.io.File;
+
+public class GetAllFilesTest {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * 遍历指定目录下的内容（包含子目录中的内容）
+		 */
+		
+		
+		
+		
+		
+		
+
+	}
+	public static void getAllFiles(File dir){
+		
+	}
+
+}

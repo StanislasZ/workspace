@@ -1,0 +1,20 @@
+package day11_0801;  //09-自定义异常
+
+/*
+ 在自定义的程序中，如果有了问题，也可以像java中的异常一样。对问题进行描述。
+ 
+ 举例：
+ 	定义一个功能可以实现除法运算，但是除数不可以为负数。
+ */
+
+
+
+
+
+public class ExceptionDemo4 {
+	public static void main(String[] args) {
+		
+
+	}
+
+}
